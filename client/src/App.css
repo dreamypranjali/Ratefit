@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.flex-grid {
+  display: flex;
+  align-content:center;
+  justify-content: center;
+  margin: auto;
+}
+.bigger-flex-grid{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10 %;
+  flex-wrap: wrap;
+
+}
+
+.bigger-flex-grid .col{
+
+  width: 30%;
+
+}
+
+
+.input{
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+    
+
+}
+
+.col {
+  flex: 1;
+  
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card-container {
+  padding: 2px 16px;
+}
+.fixed-sized-card{
+
+    flex: 1 1 21rem;
+    display: flex;
+    flex-direction: column;
+    /*If only 2 values are given in things like margin padding then it means the first value is for top & bottom and the second value is left & right*/
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    align-items: center;
+    align-self: normal;
+    
+    padding: 10px 20px;
+
+
+}
+.fixed-sized-card h1{
+
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    margin: 10px 0;
+
+}
+
+.fixed-sized-card p{
+    margin-bottom: 10px;
+}
